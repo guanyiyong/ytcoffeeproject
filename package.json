@@ -1,0 +1,33 @@
+{
+  "name": "yt-coffee-project",
+  "version": "1.0.0",
+  "description": "A uni-app H5 mobile project",
+  "main": "main.js",
+  "keywords": [
+    "uniapp",
+    "vue2",
+    "h5"
+  ],
+  "author": "Your Name",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev:h5": "cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-build --watch",
+    "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
+    "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
+    "build:mp-weixin": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^2.0.0",
+    "@dcloudio/uni-h5": "^2.0.0",
+    "@dcloudio/uni-stat": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.15",
+    "cross-env": "^7.0.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "@vue/cli-plugin-babel": "^4.5.15"
+  }
+} 
